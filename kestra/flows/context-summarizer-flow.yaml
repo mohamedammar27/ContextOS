@@ -31,6 +31,6 @@ pluginDefaults:
     values:
       provider:
         type: io.kestra.plugin.ai.provider.GoogleAI
-        apiKey: "AIzaSyA_KyTAFr7wH9jYE3-J02VhJr4ZdkHkK_I"
+        apiKey: "YOUR_GOOGLE_AI_API_KEY"
         modelName: gemini-2.5-flash
 
