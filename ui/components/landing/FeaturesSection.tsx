@@ -1,9 +1,11 @@
 "use client"
-
+import React, { useRef } from 'react';
 import { motion } from 'framer-motion';
 import { Zap, FileText, Brain, Calendar } from 'lucide-react';
 import SpotlightCard from '@/components/reactbits/ui-components/SpotlightCard';
 import ScrollReveal from '@/components/reactbits/animation/ScrollReveal';
+
+const scrollContainerRef = useRef(null);
 
 const features = [
   {
@@ -40,7 +42,7 @@ export function FeaturesSection() {
       
       <div className="relative z-10 max-w-7xl mx-auto px-6">
         {/* Section Header */}
-        <ScrollReveal>
+        <ScrollReveal scrollContainerRef={null}>
           <motion.div className="text-center mb-20">
             <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-blue-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent mb-6">
               Powerful Features
@@ -56,7 +58,7 @@ export function FeaturesSection() {
           {features.map((feature, index) => {
             const Icon = feature.icon;
             return (
-              <ScrollReveal key={feature.title} delay={index * 0.1}>
+              <ScrollReveal key={feature.title} scrollContainerRef={scrollContainerRef}>
                 <SpotlightCard className="h-full">
                   <div className="p-8 h-full flex flex-col">
                     {/* Icon */}
