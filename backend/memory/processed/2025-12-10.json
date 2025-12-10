@@ -1,0 +1,588 @@
+[
+  {
+    "summary": "Upcoming UiPath event on Autonomous Agents | Building and Orchestrating Agents End-to-End on December 16th, in Hyderabad.",
+    "tasks": [
+      {
+        "title": "Get ready with your laptop",
+        "dueDate": null,
+        "priority": "low",
+        "status": "pending",
+        "source": "mail.google.com"
+      },
+      {
+        "title": "UiPath Automation Cloud account",
+        "dueDate": null,
+        "priority": "low",
+        "status": "pending",
+        "source": "mail.google.com"
+      },
+      {
+        "title": "Enable preview features in your organisation settings",
+        "dueDate": null,
+        "priority": "low",
+        "status": "pending",
+        "source": "mail.google.com"
+      },
+      {
+        "title": "Understanding of Agent fundamentals",
+        "dueDate": null,
+        "priority": "medium",
+        "status": "pending",
+        "source": "mail.google.com"
+      }
+    ],
+    "entities": {
+      "people": [
+        "UiPath Community"
+      ],
+      "companies": [
+        "UiPath"
+      ],
+      "projects": [
+        "UiPath Autonomous Agents | Building and Orchestrating Agents End-to-End"
+      ],
+      "tools": [
+        "UiPath Automation Cloud",
+        "UiPath Orchestrator",
+        "UiPath Agent",
+        "Google Calendar",
+        "Outlook",
+        "iCal",
+        "Yahoo"
+      ]
+    },
+    "metadata": {
+      "source": "mail.google.com",
+      "timestamp": 1765306099989,
+      "contentType": "meeting_notes"
+    }
+  },
+  {
+    "summary": "Reminder email about a course due soon on Sana AI-powered learning platform.",
+    "tasks": [
+      {
+        "title": "Wrap up your learning",
+        "dueDate": "2025-12-10",
+        "priority": "high",
+        "status": "pending",
+        "source": "mail.google.com (manual)"
+      }
+    ],
+    "entities": {
+      "people": [
+        "Sana"
+      ],
+      "companies": [
+        "Sana"
+      ],
+      "projects": [
+        "Aspire Leaders",
+        "Discord"
+      ],
+      "tools": [
+        "Gmail",
+        "Discord",
+        "Sana"
+      ]
+    },
+    "metadata": {
+      "source": "mail.google.com (manual)",
+      "timestamp": 1765308789863,
+      "contentType": "email"
+    }
+  },
+  {
+    "summary": "Capstone Week course is due soon in Aspire Leaders on Sana AI-powered learning platform.",
+    "tasks": [
+      {
+        "title": "Capstone Week course is due soon",
+        "dueDate": "2025-12-10",
+        "priority": "high",
+        "status": "pending",
+        "source": "mail.google.com (manual)"
+      }
+    ],
+    "entities": {
+      "people": [
+        "Sana"
+      ],
+      "companies": [
+        "Sana"
+      ],
+      "projects": [
+        "Capstone Week course"
+      ],
+      "tools": [
+        "Gmail",
+        "Sana",
+        "Aspire Leaders"
+      ]
+    },
+    "metadata": {
+      "source": "mail.google.com (manual)",
+      "timestamp": 1765308833644,
+      "contentType": "email"
+    }
+  },
+  {
+    "summary": "You have an upcoming course deadline for Ethical and Values-Based Leadership on Sana, an AI-powered learning platform.",
+    "tasks": [
+      {
+        "title": "Wrap up your learning for Ethical and Values-Based Leadership",
+        "dueDate": "2025-12-10",
+        "priority": "high",
+        "status": "pending",
+        "source": "mail.google.com (manual)"
+      }
+    ],
+    "entities": {
+      "people": [
+        "Sana"
+      ],
+      "companies": [
+        "Sana"
+      ],
+      "projects": [
+        "Ethical and Values-Based Leadership"
+      ],
+      "tools": [
+        "Sana",
+        "Gmail"
+      ]
+    },
+    "metadata": {
+      "source": "mail.google.com (manual)",
+      "timestamp": 1765309274130,
+      "contentType": "email"
+    }
+  },
+  {
+    "summary": "Attendees discussed Q4 roadmap progress, planned sprint priorities, and API integration issues.",
+    "tasks": [
+      {
+        "title": "Complete authentication module by Friday",
+        "dueDate": "2025-12-11",
+        "priority": "high",
+        "status": "pending",
+        "source": "manual"
+      },
+      {
+        "title": "Review pull requests for payment gateway",
+        "dueDate": null,
+        "priority": "medium",
+        "status": "pending",
+        "source": "manual"
+      },
+      {
+        "title": "Update documentation for new endpoints",
+        "dueDate": null,
+        "priority": "medium",
+        "status": "pending",
+        "source": "manual"
+      },
+      {
+        "title": "Schedule code review session for Thursday 2pm",
+        "dueDate": "2025-12-10",
+        "priority": "low",
+        "status": "pending",
+        "source": "manual"
+      }
+    ],
+    "entities": {
+      "people": [
+        "John",
+        "Sarah",
+        "Mike"
+      ],
+      "companies": [],
+      "projects": [],
+      "tools": [
+        "Node.js",
+        "API"
+      ]
+    },
+    "metadata": {
+      "source": "manual",
+      "timestamp": 1765310259938,
+      "contentType": "meeting_notes"
+    }
+  },
+  {
+    "summary": "Project planning session discussion on Q4 milestones, upcoming feature releases, and technical debt.",
+    "tasks": [
+      {
+        "title": "Schedule stakeholder demo for next week",
+        "dueDate": "null",
+        "priority": "medium",
+        "status": "pending",
+        "source": "ocr (test-meeting-notes.txt)"
+      },
+      {
+        "title": "Complete API documentation by Friday",
+        "dueDate": "2025-12-11",
+        "priority": "high",
+        "status": "pending",
+        "source": "ocr (test-meeting-notes.txt)"
+      },
+      {
+        "title": "Finalize wireframes for mobile app",
+        "dueDate": "null",
+        "priority": "medium",
+        "status": "pending",
+        "source": "ocr (test-meeting-notes.txt)"
+      },
+      {
+        "title": "Conduct code review session Thursday at 3pm",
+        "dueDate": "null",
+        "priority": "low",
+        "status": "pending",
+        "source": "ocr (test-meeting-notes.txt)"
+      }
+    ],
+    "entities": {
+      "people": [
+        "Alice Johnson",
+        "Bob Smith",
+        "Carol White"
+      ],
+      "companies": [],
+      "projects": [],
+      "tools": []
+    },
+    "metadata": {
+      "source": "ocr (test-meeting-notes.txt)",
+      "timestamp": 1765348523290,
+      "contentType": "meeting_notes"
+    }
+  },
+  {
+    "summary": "Meeting notes for project planning session on December 10, 2025, discussing Q4 milestones, feature releases, and technical debt.",
+    "tasks": [
+      {
+        "title": "Schedule stakeholder demo for next week",
+        "dueDate": null,
+        "priority": "high",
+        "status": "pending",
+        "source": "ocr (test-meeting-notes.txt)"
+      },
+      {
+        "title": "Complete API documentation by Friday",
+        "dueDate": "2025-12-11",
+        "priority": "high",
+        "status": "pending",
+        "source": "ocr (test-meeting-notes.txt)"
+      },
+      {
+        "title": "Finalize wireframes for mobile app",
+        "dueDate": null,
+        "priority": "medium",
+        "status": "pending",
+        "source": "ocr (test-meeting-notes.txt)"
+      },
+      {
+        "title": "Conduct code review session Thursday at 3pm",
+        "dueDate": null,
+        "priority": "low",
+        "status": "pending",
+        "source": "ocr (test-meeting-notes.txt)"
+      }
+    ],
+    "entities": {
+      "people": [
+        "Alice Johnson",
+        "Bob Smith",
+        "Carol White"
+      ],
+      "companies": [],
+      "projects": [],
+      "tools": []
+    },
+    "metadata": {
+      "source": "ocr (test-meeting-notes.txt)",
+      "timestamp": 1765348642997,
+      "contentType": "meeting_notes"
+    }
+  },
+  {
+    "summary": "Meeting notes for Project Planning Session on December 10, 2025, covering Q4 milestones, feature releases, and technical debt.",
+    "tasks": [
+      {
+        "title": "Schedule stakeholder demo for next week",
+        "dueDate": "null",
+        "priority": "high",
+        "status": "pending",
+        "source": "ocr (test-meeting-notes.txt)"
+      },
+      {
+        "title": "Complete API documentation by Friday",
+        "dueDate": "2025-12-11",
+        "priority": "high",
+        "status": "pending",
+        "source": "ocr (test-meeting-notes.txt)"
+      },
+      {
+        "title": "Finalize wireframes for mobile app",
+        "dueDate": "null",
+        "priority": "medium",
+        "status": "pending",
+        "source": "ocr (test-meeting-notes.txt)"
+      },
+      {
+        "title": "Conduct code review session Thursday at 3pm",
+        "dueDate": "null",
+        "priority": "low",
+        "status": "pending",
+        "source": "ocr (test-meeting-notes.txt)"
+      }
+    ],
+    "entities": {
+      "people": [
+        "Alice Johnson",
+        "Bob Smith",
+        "Carol White"
+      ],
+      "companies": [],
+      "projects": [
+        "Project Planning Session"
+      ],
+      "tools": [
+        "API",
+        "database",
+        "caching layer"
+      ]
+    },
+    "metadata": {
+      "source": "ocr (test-meeting-notes.txt)",
+      "timestamp": 1765348826406,
+      "contentType": "meeting_notes"
+    }
+  },
+  {
+    "summary": "Project status update for December 10, 2025, including sprint review summary, action items, technical debt, blockers, and next steps.",
+    "tasks": [
+      {
+        "title": "Fix critical bug in authentication service",
+        "dueDate": "2025-12-11",
+        "priority": "high",
+        "status": "pending",
+        "source": "ocr (sprint-review.txt)"
+      },
+      {
+        "title": "Deploy staging environment updates",
+        "dueDate": "2025-12-11",
+        "priority": "medium",
+        "status": "pending",
+        "source": "ocr (sprint-review.txt)"
+      },
+      {
+        "title": "Complete unit tests for payment module",
+        "dueDate": null,
+        "priority": "medium",
+        "status": "pending",
+        "source": "ocr (sprint-review.txt)"
+      },
+      {
+        "title": "Daily standup at 9:30 AM",
+        "dueDate": null,
+        "priority": "low",
+        "status": "pending",
+        "source": "ocr (sprint-review.txt)"
+      }
+    ],
+    "entities": {
+      "people": [
+        "David",
+        "Emma",
+        "Frank"
+      ],
+      "companies": [],
+      "projects": [],
+      "tools": [
+        "authentication service",
+        "OAuth2",
+        "JWT"
+      ]
+    },
+    "metadata": {
+      "source": "ocr (sprint-review.txt)",
+      "timestamp": 1765348855007,
+      "contentType": "meeting_notes"
+    }
+  },
+  {
+    "summary": "Project status update for December 10, 2025, including completed tasks, action items, technical debt, blockers, and next steps.",
+    "tasks": [
+      {
+        "title": "Fix critical bug in authentication service",
+        "dueDate": "2025-12-11",
+        "priority": "high",
+        "status": "pending",
+        "source": "ocr (sprint-review.txt)"
+      },
+      {
+        "title": "Deploy staging environment updates",
+        "dueDate": "2025-12-11",
+        "priority": "high",
+        "status": "pending",
+        "source": "ocr (sprint-review.txt)"
+      },
+      {
+        "title": "Complete unit tests for payment module",
+        "dueDate": null,
+        "priority": "medium",
+        "status": "pending",
+        "source": "ocr (sprint-review.txt)"
+      },
+      {
+        "title": "Daily standup at 9:30 AM",
+        "dueDate": null,
+        "priority": "low",
+        "status": "pending",
+        "source": "ocr (sprint-review.txt)"
+      }
+    ],
+    "entities": {
+      "people": [
+        "David",
+        "Emma",
+        "Frank"
+      ],
+      "companies": [],
+      "projects": [],
+      "tools": []
+    },
+    "metadata": {
+      "source": "ocr (sprint-review.txt)",
+      "timestamp": 1765348925287,
+      "contentType": "meeting_notes"
+    }
+  },
+  {
+    "summary": "Meeting notes from a project planning session on December 10, 2025, discussing Q4 milestones, feature releases, and addressing technical debt.",
+    "tasks": [
+      {
+        "title": "Schedule stakeholder demo for next week",
+        "dueDate": "null",
+        "priority": "high",
+        "status": "pending",
+        "source": "ocr (test-meeting-notes.txt)"
+      },
+      {
+        "title": "Complete API documentation by Friday",
+        "dueDate": "2025-12-11",
+        "priority": "high",
+        "status": "pending",
+        "source": "ocr (test-meeting-notes.txt)"
+      },
+      {
+        "title": "Finalize wireframes for mobile app",
+        "dueDate": "null",
+        "priority": "medium",
+        "status": "pending",
+        "source": "ocr (test-meeting-notes.txt)"
+      },
+      {
+        "title": "Conduct code review session Thursday at 3pm",
+        "dueDate": "null",
+        "priority": "low",
+        "status": "pending",
+        "source": "ocr (test-meeting-notes.txt)"
+      }
+    ],
+    "entities": {
+      "people": [
+        "Alice Johnson",
+        "Bob Smith",
+        "Carol White"
+      ],
+      "companies": [],
+      "projects": [],
+      "tools": [
+        "API",
+        "database",
+        "caching layer"
+      ]
+    },
+    "metadata": {
+      "source": "ocr (test-meeting-notes.txt)",
+      "timestamp": 1765348925326,
+      "contentType": "meeting_notes"
+    }
+  },
+  {
+    "summary": "Daily standup notes from December 10, 2025, covering team updates, blockers, and next actions.",
+    "tasks": [
+      {
+        "title": "Code review session with Mike",
+        "dueDate": null,
+        "priority": "medium",
+        "status": "pending",
+        "source": "ocr (standup-notes.txt)"
+      },
+      {
+        "title": "Deploy staging environment",
+        "dueDate": "2025-12-09",
+        "priority": "high",
+        "status": "pending",
+        "source": "ocr (standup-notes.txt)"
+      },
+      {
+        "title": "Document deployment procedures",
+        "dueDate": null,
+        "priority": "low",
+        "status": "pending",
+        "source": "ocr (standup-notes.txt)"
+      }
+    ],
+    "entities": {
+      "people": [
+        "Sarah",
+        "Mike",
+        "Jessica"
+      ],
+      "companies": [],
+      "projects": [],
+      "tools": [
+        "Kubernetes"
+      ]
+    },
+    "metadata": {
+      "source": "ocr (standup-notes.txt)",
+      "timestamp": 1765349274188,
+      "contentType": "meeting_notes"
+    }
+  },
+  {
+    "summary": "Extension of last date for submission of assignments for ODL and Online programmes For June-2024 TEE.",
+    "tasks": [
+      {
+        "title": "Submit assignments for Term End Examinations, June- 2024 for both ODL and Online programmes",
+        "dueDate": "2024-05-15",
+        "priority": "medium",
+        "status": "pending",
+        "source": "ocr (assignment_submission.jpeg)"
+      }
+    ],
+    "entities": {
+      "people": [
+        "S. K. Mishra"
+      ],
+      "companies": [
+        "Indira Gandhi National Open University"
+      ],
+      "projects": [
+        "ODL",
+        "Online programmes",
+        "Term End Examinations",
+        "GOAL",
+        "EVBB"
+      ],
+      "tools": []
+    },
+    "metadata": {
+      "source": "ocr (assignment_submission.jpeg)",
+      "timestamp": 1765349653570,
+      "contentType": "meeting_notes"
+    }
+  }
+]

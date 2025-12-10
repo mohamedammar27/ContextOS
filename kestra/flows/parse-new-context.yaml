@@ -1,0 +1,122 @@
+id: context_parsing_flow
+namespace: contextos
+
+description: Parse context using LLM and save to processed memory
+
+inputs:
+  - id: content
+    type: STRING
+    required: true
+    description: The text content to analyze
+  
+  - id: source
+    type: STRING
+    required: true
+    description: Source of the content (e.g., slack, github, email)
+  
+  - id: timestamp
+    type: INT
+    required: true
+    description: Unix timestamp in milliseconds
+
+tasks:
+  - id: log_received
+    type: io.kestra.plugin.core.log.Log
+    message: "Received context from: {{inputs.source}}"
+    level: INFO
+
+  - id: analyze_context
+    type: io.kestra.plugin.scripts.node.Script
+    description: Analyze context using LLM parser
+    beforeCommands:
+      - cd /app/backend
+      - npm install
+    script: |
+      const { analyzeContext } = require('./parsing/parser');
+      
+      // Get inputs from Kestra
+      const content = {{inputs.content}};
+      const source = {{inputs.source}};
+      const timestamp = {{inputs.timestamp}};
+      
+      // Analyze context
+      async function runAnalysis() {
+        try {
+          console.log('[Kestra] Starting context analysis...');
+          
+          const parsed = await analyzeContext({
+            content: content,
+            source: source,
+            timestamp: timestamp
+          });
+          
+          console.log('[Kestra] Analysis complete');
+          console.log('Summary:', parsed.summary);
+          console.log('Tasks found:', parsed.tasks.length);
+          console.log('Entities:', Object.values(parsed.entities).flat().length);
+          
+          // Return parsed result
+          return parsed;
+        } catch (error) {
+          console.error('[Kestra] Analysis failed:', error.message);
+          throw error;
+        }
+      }
+      
+      // Execute and output result
+      runAnalysis().then(result => {
+        console.log(JSON.stringify(result));
+      }).catch(error => {
+        console.error(error);
+        process.exit(1);
+      });
+    outputFiles:
+      - "*.json"
+
+  - id: save_processed
+    type: io.kestra.plugin.scripts.node.Script
+    description: Save parsed entry to processed memory
+    beforeCommands:
+      - cd /app/backend
+    script: |
+      const { appendProcessedEntry } = require('./memory/processedMemory');
+      
+      // Get parsed result from previous task
+      const parsed = {{outputs.analyze_context.vars.result}};
+      
+      async function saveEntry() {
+        try {
+          console.log('[Kestra] Saving to processed memory...');
+          
+          await appendProcessedEntry(parsed);
+          
+          console.log('[Kestra] Processed entry saved');
+          return { success: true, saved: true };
+        } catch (error) {
+          console.error('[Kestra] Save failed:', error.message);
+          throw error;
+        }
+      }
+      
+      saveEntry().then(result => {
+        console.log(JSON.stringify(result));
+      }).catch(error => {
+        console.error(error);
+        process.exit(1);
+      });
+
+  - id: log_complete
+    type: io.kestra.plugin.core.log.Log
+    message: "Context parsing flow completed for source: {{inputs.source}}"
+    level: INFO
+
+outputs:
+  - id: parsed
+    type: JSON
+    value: "{{outputs.analyze_context.vars.result}}"
+
+triggers:
+  - id: api_trigger
+    type: io.kestra.plugin.core.trigger.Webhook
+    key: context_webhook
+    description: Trigger via REST API at POST /api/v1/executions/trigger/contextos/context_parsing_flow

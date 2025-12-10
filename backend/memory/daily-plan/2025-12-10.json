@@ -1,0 +1,94 @@
+{
+  "date": "2025-12-10",
+  "daySummary": "Complete high priority tasks with Capstone Week and learning wrap up.",
+  "focusTasks": [
+    {
+      "title": "Wrap up your learning",
+      "dueDate": "2025-12-10",
+      "priority": "high",
+      "status": "pending",
+      "source": "mail.google.com (manual)",
+      "taskNumber": 1,
+      "completed": false
+    },
+    {
+      "title": "Capstone Week course is due soon",
+      "dueDate": "2025-12-10",
+      "priority": "high",
+      "status": "pending",
+      "source": "mail.google.com (manual)",
+      "taskNumber": 2,
+      "completed": false
+    },
+    {
+      "title": "Wrap up your learning for Ethical and Values-Based Leadership",
+      "dueDate": "2025-12-10",
+      "priority": "high",
+      "status": "pending",
+      "source": "mail.google.com (manual)",
+      "taskNumber": 3,
+      "completed": false
+    }
+  ],
+  "otherTasks": [
+    {
+      "title": "Get ready with your laptop",
+      "dueDate": null,
+      "priority": "low",
+      "status": "pending",
+      "source": "mail.google.com",
+      "taskNumber": 4,
+      "completed": false
+    },
+    {
+      "title": "UiPath Automation Cloud account",
+      "dueDate": null,
+      "priority": "low",
+      "status": "pending",
+      "source": "mail.google.com",
+      "taskNumber": 5,
+      "completed": false
+    },
+    {
+      "title": "Enable preview features in your organisation settings",
+      "dueDate": null,
+      "priority": "low",
+      "status": "pending",
+      "source": "mail.google.com",
+      "taskNumber": 6,
+      "completed": false
+    },
+    {
+      "title": "Understanding of Agent fundamentals",
+      "dueDate": null,
+      "priority": "medium",
+      "status": "pending",
+      "source": "mail.google.com",
+      "taskNumber": 7,
+      "completed": false
+    }
+  ],
+  "reminders": [
+    "Review UiPath setup",
+    "Preview features enabled",
+    "Agent fundamentals learned"
+  ],
+  "scheduleSuggestions": {
+    "morning": [
+      "Get ready",
+      "UiPath setup"
+    ],
+    "afternoon": [
+      "Preview features",
+      "Agent fundamentals"
+    ],
+    "evening": [
+      "Wrap up learning"
+    ]
+  },
+  "metadata": {
+    "totalTasks": 7,
+    "highPriorityCount": 3,
+    "normalizedAt": "2025-12-10T11:36:44.741Z"
+  }
+}

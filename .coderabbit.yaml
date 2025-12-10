@@ -1,0 +1,52 @@
+# CodeRabbit Configuration
+# https://docs.coderabbit.ai/guides/review-instructions
+
+# Enable automatic reviews on pull requests
+reviews:
+  auto_review:
+    enabled: true
+    drafts: false
+  
+  # Request changes for high severity issues
+  request_changes_workflow: true
+  
+  # High severity issues require changes
+  high_level_summary: true
+  poem: false
+  review_status: true
+  
+  # Auto-fix linting issues when possible
+  auto_fix:
+    enabled: true
+    on_review: true
+
+# Path-based configuration
+path_filters:
+  - "!**/node_modules/**"
+  - "!**/dist/**"
+  - "!**/build/**"
+  - "!**/.next/**"
+  - "!**/backend/memory/**"
+  - "!**/*.min.js"
+  - "!**/*.min.css"
+
+# Language-specific settings
+language_settings:
+  typescript:
+    level: "strict"
+  javascript:
+    level: "strict"
+  python:
+    level: "moderate"
+
+# Review focus areas
+focus_areas:
+  - security
+  - performance
+  - best_practices
+  - bug_risk
+
+# Severity thresholds
+severity_thresholds:
+  request_changes: "high"
+  comment: "medium"

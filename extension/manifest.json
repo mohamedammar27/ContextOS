@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "ContextOS Reader",
+  "version": "2.0",
+  "description": "Captures context from webpages with automatic monitoring and smart deduplication.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_title": "Capture Context"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://twitter.com/*"
+      ],
+      "js": [
+        "config.js",
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}

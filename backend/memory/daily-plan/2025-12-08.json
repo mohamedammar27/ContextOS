@@ -1,0 +1,83 @@
+{
+  "date": "2025-12-08",
+  "daySummary": "Focus on high priority tasks",
+  "focusTasks": [
+    {
+      "title": "Complete the marketing proposal",
+      "dueDate": "null",
+      "priority": "high",
+      "status": "pending",
+      "source": "test-pipeline",
+      "taskNumber": 1,
+      "completed": false
+    },
+    {
+      "title": "Deploy the new feature to production",
+      "dueDate": "null",
+      "priority": "high",
+      "status": "pending",
+      "source": "test-pipeline",
+      "taskNumber": 2,
+      "completed": false
+    },
+    {
+      "title": "Contact John at Microsoft about the partnership",
+      "dueDate": "null",
+      "priority": "high",
+      "status": "pending",
+      "source": "test-pipeline",
+      "taskNumber": 3,
+      "completed": false
+    }
+  ],
+  "otherTasks": [
+    {
+      "title": "Redeem voucher by December 10, 2025",
+      "dueDate": "2025-12-10",
+      "priority": "medium",
+      "status": "pending",
+      "source": "mail.google.com",
+      "taskNumber": 4,
+      "completed": false
+    },
+    {
+      "title": "Take exam by December 31, 2025",
+      "dueDate": "2025-12-31",
+      "priority": "low",
+      "status": "pending",
+      "source": "mail.google.com",
+      "taskNumber": 5,
+      "completed": false
+    },
+    {
+      "title": "Prepare to pass DP-600 or DP-700 exams",
+      "dueDate": null,
+      "priority": "high",
+      "status": "pending",
+      "source": "mail.google.com",
+      "taskNumber": 6,
+      "completed": false
+    }
+  ],
+  "reminders": [
+    "Call John at Microsoft",
+    "Redeem voucher by 12/10"
+  ],
+  "scheduleSuggestions": {
+    "morning": [
+      "Complete marketing proposal",
+      "Deploy new feature"
+    ],
+    "afternoon": [
+      "Contact John at Microsoft"
+    ],
+    "evening": [
+      "Prepare for DP-600/DP-700 exam"
+    ]
+  },
+  "metadata": {
+    "totalTasks": 6,
+    "highPriorityCount": 4,
+    "normalizedAt": "2025-12-09T19:16:26.325Z"
+  }
+}

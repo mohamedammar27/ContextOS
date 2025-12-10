@@ -1,0 +1,14 @@
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "when is the last date to submit my assignment?",
+      "timestamp": 1765351943309
+    },
+    {
+      "role": "assistant",
+      "content": "You have a Capstone Week course that's due soon, and it's a high priority task for this week. I'd recommend checking the course details for the exact deadline. However, based on the information I have, it seems like it's due before the end of this week, probably by tomorrow or the next day. I can help you review your task list and check the course details together if you'd like.",
+      "timestamp": 1765351943309
+    }
+  ]
+}

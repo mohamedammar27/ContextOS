@@ -1,0 +1,81 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# Temporary files
+*.tmp
+temp/
+
+# Backend specific
+backend/.env
+backend/node_modules/
+
+# Frontend specific
+ui/.next/
+ui/node_modules/
+ui/out/
+
+# User data (keep structure, ignore content)
+backend/memory/logs/*.json
+backend/memory/processed/*.json
+backend/memory/daily-plan/*.json
+backend/memory/chat-history/chat.json
+backend/content/uploads/*
+backend/content/processed/*
+backend/content/error/*
+
+# Keep directory structure
+!backend/memory/logs/.gitkeep
+!backend/memory/processed/.gitkeep
+!backend/memory/daily-plan/.gitkeep
+!backend/content/uploads/.gitkeep
+!backend/content/processed/.gitkeep
+!backend/content/error/.gitkeep
+
+# Settings file (contains user API keys)
+backend/memory/settings.json
+
+# OCR data
+backend/eng.traineddata
+
+# Documentation that changes frequently
+*_COMPLETE.md
+*_SUMMARY.md
+*_GUIDE.md
+MISSION_*.md
+KESTRA_*.md

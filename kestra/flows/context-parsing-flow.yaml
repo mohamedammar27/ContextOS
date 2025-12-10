@@ -1,0 +1,55 @@
+id: context_parsing_flow
+namespace: contextos
+
+description: Parse captured context and extract structured information
+
+inputs:
+  - id: content
+    type: STRING
+    required: true
+    description: The text content to parse
+  
+  - id: source
+    type: STRING
+    required: true
+    description: Source of the content (e.g., slack, github, email)
+  
+  - id: timestamp
+    type: INT
+    required: true
+    description: Unix timestamp in milliseconds
+
+tasks:
+  - id: log_received
+    type: io.kestra.plugin.core.log.Log
+    message: "📥 Received context from: {{trigger.body.source}} ({{trigger.body.content | length}} chars)"
+    level: INFO
+
+  - id: log_parsing
+    type: io.kestra.plugin.core.log.Log
+    message: "🔍 Starting LLM parsing for source: {{trigger.body.source}}"
+    level: INFO
+
+  - id: log_timestamp
+    type: io.kestra.plugin.core.log.Log
+    message: "⏰ Timestamp: {{trigger.body.timestamp}}"
+    level: INFO
+
+  - id: log_complete
+    type: io.kestra.plugin.core.log.Log
+    message: "✅ Context parsing workflow completed for {{trigger.body.source}}"
+    level: INFO
+
+triggers:
+  - id: webhook_trigger
+    type: io.kestra.plugin.core.trigger.Webhook
+    key: context_webhook
+
+outputs:
+  - id: workflow_status
+    type: STRING
+    value: "completed"
+  
+  - id: processed_source
+    type: STRING
+    value: "{{trigger.body.source}}"

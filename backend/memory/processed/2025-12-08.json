@@ -1,0 +1,92 @@
+[
+  {
+    "summary": "Discuss Q4 roadmap with Sarah, complete marketing proposal, deploy new feature, and contact John at Microsoft.",
+    "tasks": [
+      {
+        "title": "Complete the marketing proposal",
+        "dueDate": "null",
+        "priority": "high",
+        "status": "pending",
+        "source": "test-pipeline"
+      },
+      {
+        "title": "Deploy the new feature to production",
+        "dueDate": "null",
+        "priority": "high",
+        "status": "pending",
+        "source": "test-pipeline"
+      },
+      {
+        "title": "Contact John at Microsoft about the partnership",
+        "dueDate": "null",
+        "priority": "high",
+        "status": "pending",
+        "source": "test-pipeline"
+      }
+    ],
+    "entities": {
+      "people": [
+        "Sarah",
+        "John"
+      ],
+      "companies": [
+        "Microsoft"
+      ],
+      "projects": [
+        "Q4 roadmap"
+      ],
+      "tools": []
+    },
+    "metadata": {
+      "source": "test-pipeline",
+      "timestamp": 1765217353701,
+      "contentType": "meeting_notes"
+    }
+  },
+  {
+    "summary": "Received a private message with a free Fabric exam voucher and instructions for redemption.",
+    "tasks": [
+      {
+        "title": "Redeem voucher by December 10, 2025",
+        "dueDate": "2025-12-10",
+        "priority": "medium",
+        "status": "pending",
+        "source": "mail.google.com"
+      },
+      {
+        "title": "Take exam by December 31, 2025",
+        "dueDate": "2025-12-31",
+        "priority": "low",
+        "status": "pending",
+        "source": "mail.google.com"
+      },
+      {
+        "title": "Prepare to pass DP-600 or DP-700 exams",
+        "dueDate": null,
+        "priority": "high",
+        "status": "pending",
+        "source": "mail.google.com"
+      }
+    ],
+    "entities": {
+      "people": [
+        "FabricPam",
+        "T_Mohamed_Yaser"
+      ],
+      "companies": [
+        "Microsoft"
+      ],
+      "projects": [
+        "Fabric Data Days Exam Voucher"
+      ],
+      "tools": [
+        "Gmail"
+      ]
+    },
+    "metadata": {
+      "source": "mail.google.com",
+      "timestamp": 1765217414283,
+      "contentType": "email"
+    }
+  }
+]

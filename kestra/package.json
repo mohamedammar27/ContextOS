@@ -1,0 +1,16 @@
+{
+  "name": "contextos-kestra",
+  "version": "1.0.0",
+  "description": "Kestra flow configuration for ContextOS",
+  "scripts": {
+    "register:flow": "node register-flow.js",
+    "register:ps": "powershell -ExecutionPolicy Bypass -File register-flow.ps1",
+    "test:connection": "powershell -ExecutionPolicy Bypass -File test-connection.ps1",
+    "test:flow": "curl -X POST http://localhost:8080/api/v1/executions/contextos/context_parsing_flow -H \"Content-Type: application/json\" -d '{\"content\":\"Test content\",\"source\":\"manual-test\",\"timestamp\":1733702400000}'",
+    "list:flows": "curl http://localhost:8080/api/v1/flows",
+    "verify": "curl http://localhost:8080/api/v1/flows/contextos/context_parsing_flow"
+  },
+  "keywords": ["kestra", "workflow", "contextos"],
+  "author": "",
+  "license": "MIT"
+}

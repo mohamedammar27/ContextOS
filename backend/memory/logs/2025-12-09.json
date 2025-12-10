@@ -1,0 +1,42 @@
+[
+  {
+    "timestamp": "2025-12-08T18:58:53.888Z",
+    "source": "test-pipeline",
+    "content": "Meeting notes: Discuss Q4 roadmap with Sarah. Complete the marketing proposal by Friday. Deploy the new feature to production. Contact John at Microsoft about the partnership."
+  },
+  {
+    "timestamp": "2025-12-08T19:01:02.349Z",
+    "source": "mail.google.com",
+    "content": "Conversation opened. 1 unread message.\n\nSkip to content\nUsing Gmail with screen readers\n\nSearch\nAsk Gemini\nCompose\nLabels\nInbox\n7,206\nStarred\nSnoozed\nSent\nDrafts\n16\nPurchases\n17\nMore\n \nLabels\nLabels\n16 of 12,572\nPrint all\nIn new window\nYour $30.00 payout for Perplexity is on the way\nInbox\nSearch for all messages with label Inbox\nRemove label Inbox from this conversation\nDub.co <notifications@mail.dub.co>\nMon, Dec 8, 1:04 PM (11 hours ago)\nYou can't react to a message with a reply-to address\nReply\nMore\nto me\nYour payout is on the way!\n\nPerplexity has initiated a payout of $30.00 for affiliate commissions made from Oct 21, 2025 to Oct 28, 2025.\n\nThe payout is currently being processed and is expected to be transferred to your Stripe Express account in 5 business days (excluding weekends and public holidays).\n\nEstimated arrival date: Dec 15, 7:30 AM.\n\nView payout\n\nThis email was intended for 1ammar.yaser@gmail.com. If you were not expecting this email, you can ignore this email. If you are concerned about your account's safety, please reply to this email to get in touch with us.\n\nDub Technologies, Inc.\n2261 Market Street STE 5906\nSan Francisco, CA 941114\n\nReply\nForward\nYou can't react to a message with a reply-to address"
+  },
+  {
+    "timestamp": "2025-12-08T19:25:25.383Z",
+    "source": "kestra-test",
+    "content": "Meeting notes from team standup:\n  - John needs to finish the API documentation by Friday\n  - Sarah will review the pull requests this afternoon\n  - We need to schedule a demo with the client next week\n  - Mike mentioned the database migration should happen on Monday"
+  },
+  {
+    "timestamp": "2025-12-08T19:30:06.884Z",
+    "source": "kestra-test",
+    "content": "Meeting notes from team standup:\n  - John needs to finish the API documentation by Friday\n  - Sarah will review the pull requests this afternoon\n  - We need to schedule a demo with the client next week\n  - Mike mentioned the database migration should happen on Monday"
+  },
+  {
+    "timestamp": "2025-12-08T19:30:48.798Z",
+    "source": "kestra-integration-test",
+    "content": "Meeting notes from team standup on December 9, 2025:\n\nAttendees: John, Sarah, Mike, and the product team\n\nAction Items:\n- John needs to finish the API documentation by Friday, December 13th\n- Sarah will review all pending pull requests this afternoon\n- We need to schedule a product demo with the client next week (Dec 16-20)\n- Mike mentioned the database migration should happen on Monday morning\n- Everyone should update their Jira tickets before end of day\n\nDiscussion Points:\n- The new feature release is on track for Q1 2026\n- Security audit findings need to be addressed\n- Performance improvements showing 40% reduction in load time\n\nNext Meeting: Thursday at 10 AM"
+  },
+  {
+    "timestamp": "2025-12-08T19:35:04.193Z",
+    "source": "kestra-integration-test",
+    "content": "Meeting notes from team standup on December 9, 2025:\n\nAttendees: John, Sarah, Mike, and the product team\n\nAction Items:\n- John needs to finish the API documentation by Friday, December 13th\n- Sarah will review all pending pull requests this afternoon\n- We need to schedule a product demo with the client next week (Dec 16-20)\n- Mike mentioned the database migration should happen on Monday morning\n- Everyone should update their Jira tickets before end of day\n\nDiscussion Points:\n- The new feature release is on track for Q1 2026\n- Security audit findings need to be addressed\n- Performance improvements showing 40% reduction in load time\n\nNext Meeting: Thursday at 10 AM"
+  },
+  {
+    "timestamp": "2025-12-08T19:36:38.012Z",
+    "source": "kestra-integration-test",
+    "content": "Meeting notes from team standup on December 9, 2025:\n\nAttendees: John, Sarah, Mike, and the product team\n\nAction Items:\n- John needs to finish the API documentation by Friday, December 13th\n- Sarah will review all pending pull requests this afternoon\n- We need to schedule a product demo with the client next week (Dec 16-20)\n- Mike mentioned the database migration should happen on Monday morning\n- Everyone should update their Jira tickets before end of day\n\nDiscussion Points:\n- The new feature release is on track for Q1 2026\n- Security audit findings need to be addressed\n- Performance improvements showing 40% reduction in load time\n\nNext Meeting: Thursday at 10 AM"
+  },
+  {
+    "timestamp": "2025-12-09T10:48:59.556Z",
+    "source": "chatgpt.com",
+    "content": "Skip to content\nChat history\nNew chat\nCtrl\nShift\nO\nSearch chats\nCtrl\nK\nLibrary\nGPTs\nProjects\nYour chats\nAI Agents Assemble overview\nCapCut template import desktop\nMicrosoft exam agreement summary\nCode explanation\nReferral payout status explanation\nTeam changes app guide\nDP-600 vs DP-700 value\nWinning probability ZYND AICKATHON\nEvent vs DSA Learning\nCuPy JIT CUDA explanation\nDeepSeek launch NVIDIA drop\nComment options for winner\nRender deployment process\nPowerShell curl fix\nLate submission inquiry\nVoucher application guidance\nInternship onboarding guide\nEvent notifications answer\nEvent worth attending\nSummarize Agentathon result\nRate LinkedIn post\nReply request correction\nTime management plan\nReply to event query\nStudy plan for testing\nInternship plan in 1 month\nMessage revision suggestion\nParticipation reply suggestion\nT Mohamed Yaser\nGo\nChatGPT 5.1\nWhat can I help with?"
+  }
+]

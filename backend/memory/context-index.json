@@ -1,0 +1,21 @@
+{
+  "totalEntries": 34,
+  "entriesPerSource": {
+    "github": 2,
+    "slack": 1,
+    "discord": 1,
+    "mail.google.com": 8,
+    "learn.microsoft.com": 1,
+    "test": 1,
+    "test-pipeline": 3,
+    "kestra-test": 2,
+    "kestra-integration-test": 3,
+    "chatgpt.com": 1,
+    "mail.google.com (manual)": 3,
+    "manual": 1,
+    "ocr (test-meeting-notes.txt)": 4,
+    "ocr (sprint-review.txt)": 1,
+    "ocr (standup-notes.txt)": 1,
+    "ocr (assignment_submission.jpeg)": 1
+  }
+}

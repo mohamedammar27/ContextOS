@@ -1,0 +1,313 @@
+[
+  {
+    "summary": "Discuss Q4 roadmap with Sarah, complete marketing proposal by Friday, deploy new feature to production, and contact John at Microsoft about partnership.",
+    "tasks": [
+      {
+        "title": "Discuss Q4 roadmap with Sarah",
+        "dueDate": null,
+        "priority": "low",
+        "status": "pending",
+        "source": "test-pipeline"
+      },
+      {
+        "title": "Complete the marketing proposal",
+        "dueDate": "2025-12-09",
+        "priority": "high",
+        "status": "pending",
+        "source": "test-pipeline"
+      },
+      {
+        "title": "Deploy the new feature to production",
+        "dueDate": null,
+        "priority": "low",
+        "status": "pending",
+        "source": "test-pipeline"
+      },
+      {
+        "title": "Contact John at Microsoft about the partnership",
+        "dueDate": null,
+        "priority": "low",
+        "status": "pending",
+        "source": "test-pipeline"
+      }
+    ],
+    "entities": {
+      "people": [
+        "Sarah",
+        "John"
+      ],
+      "companies": [
+        "Microsoft"
+      ],
+      "projects": [
+        "Q4 roadmap",
+        "marketing proposal"
+      ],
+      "tools": []
+    },
+    "metadata": {
+      "source": "test-pipeline",
+      "timestamp": 1765220333908,
+      "contentType": "meeting_notes"
+    }
+  },
+  {
+    "summary": "Received a notification from Dub.co regarding a $30.00 payout for affiliate commissions made from October 21 to 28, 2025.",
+    "tasks": [
+      {
+        "title": "Verify payout status",
+        "dueDate": null,
+        "priority": "low",
+        "status": "pending",
+        "source": "mail.google.com"
+      }
+    ],
+    "entities": {
+      "people": [
+        "1ammar.yaser@gmail.com"
+      ],
+      "companies": [
+        "Dub Technologies, Inc."
+      ],
+      "projects": [
+        "Perplexity"
+      ],
+      "tools": [
+        "Gmail",
+        "Stripe Express"
+      ]
+    },
+    "metadata": {
+      "source": "mail.google.com",
+      "timestamp": 1765220462362,
+      "contentType": "email"
+    }
+  },
+  {
+    "summary": "Team standup meeting notes covering tasks and upcoming events.",
+    "tasks": [
+      {
+        "title": "Finish API documentation",
+        "dueDate": "2023-12-15",
+        "priority": "high",
+        "status": "pending",
+        "source": "kestra-test"
+      },
+      {
+        "title": "Review pull requests",
+        "dueDate": null,
+        "priority": "low",
+        "status": "pending",
+        "source": "kestra-test"
+      },
+      {
+        "title": "Schedule demo with client",
+        "dueDate": null,
+        "priority": "medium",
+        "status": "pending",
+        "source": "kestra-test"
+      },
+      {
+        "title": "Perform database migration",
+        "dueDate": "2023-12-11",
+        "priority": "high",
+        "status": "pending",
+        "source": "kestra-test"
+      }
+    ],
+    "entities": {
+      "people": [
+        "John",
+        "Sarah",
+        "Mike"
+      ],
+      "companies": [],
+      "projects": [],
+      "tools": [
+        "API"
+      ]
+    },
+    "metadata": {
+      "source": "kestra-test",
+      "timestamp": 1765221925395,
+      "contentType": "meeting_notes"
+    }
+  },
+  {
+    "summary": "The team discussed updates, action items, and upcoming deadlines for the new feature release.",
+    "tasks": [
+      {
+        "title": "Finish API documentation",
+        "dueDate": "2025-12-13",
+        "priority": "high",
+        "status": "pending",
+        "source": "kestra-integration-test"
+      },
+      {
+        "title": "Review all pending pull requests",
+        "dueDate": null,
+        "priority": "high",
+        "status": "pending",
+        "source": "kestra-integration-test"
+      },
+      {
+        "title": "Schedule product demo with client",
+        "dueDate": null,
+        "priority": "high",
+        "status": "pending",
+        "source": "kestra-integration-test"
+      },
+      {
+        "title": "Database migration",
+        "dueDate": "2025-12-15",
+        "priority": "high",
+        "status": "pending",
+        "source": "kestra-integration-test"
+      },
+      {
+        "title": "Update Jira tickets",
+        "dueDate": "2025-12-09",
+        "priority": "low",
+        "status": "pending",
+        "source": "kestra-integration-test"
+      }
+    ],
+    "entities": {
+      "people": [
+        "John",
+        "Sarah",
+        "Mike"
+      ],
+      "companies": [
+        "client"
+      ],
+      "projects": [
+        "new feature release"
+      ],
+      "tools": [
+        "Jira",
+        "API",
+        "database"
+      ]
+    },
+    "metadata": {
+      "source": "kestra-integration-test",
+      "timestamp": 1765222248804,
+      "contentType": "meeting_notes"
+    }
+  },
+  {
+    "summary": "Team standup meeting on December 9, 2025, covering ongoing tasks, discussion points, and upcoming deadlines.",
+    "tasks": [
+      {
+        "title": "Finish the API documentation",
+        "dueDate": "2025-12-13",
+        "priority": "high",
+        "status": "pending",
+        "source": "kestra-integration-test"
+      },
+      {
+        "title": "Review all pending pull requests",
+        "dueDate": null,
+        "priority": "medium",
+        "status": "pending",
+        "source": "kestra-integration-test"
+      },
+      {
+        "title": "Schedule a product demo with the client",
+        "dueDate": "2025-12-16",
+        "priority": "high",
+        "status": "pending",
+        "source": "kestra-integration-test"
+      },
+      {
+        "title": "Schedule the database migration",
+        "dueDate": null,
+        "priority": "high",
+        "status": "pending",
+        "source": "kestra-integration-test"
+      },
+      {
+        "title": "Update Jira tickets",
+        "dueDate": null,
+        "priority": "low",
+        "status": "pending",
+        "source": "kestra-integration-test"
+      }
+    ],
+    "entities": {
+      "people": [
+        "John",
+        "Sarah",
+        "Mike"
+      ],
+      "companies": [],
+      "projects": [],
+      "tools": [
+        "Jira"
+      ]
+    },
+    "metadata": {
+      "source": "kestra-integration-test",
+      "timestamp": 1765222504204,
+      "contentType": "meeting_notes"
+    }
+  },
+  {
+    "summary": "Team standup meeting on December 9, 2025: discussing progress, action items, and upcoming deadlines.",
+    "tasks": [
+      {
+        "title": "Finish the API documentation by Friday, December 13th",
+        "dueDate": "2025-12-13",
+        "priority": "high",
+        "status": "pending",
+        "source": "kestra-integration-test"
+      },
+      {
+        "title": "Review all pending pull requests this afternoon",
+        "dueDate": null,
+        "priority": "low",
+        "status": "pending",
+        "source": "kestra-integration-test"
+      },
+      {
+        "title": "Schedule a product demo with the client next week (Dec 16-20)",
+        "dueDate": null,
+        "priority": "high",
+        "status": "pending",
+        "source": "kestra-integration-test"
+      },
+      {
+        "title": "Database migration should happen on Monday morning",
+        "dueDate": "2025-12-09",
+        "priority": "high",
+        "status": "pending",
+        "source": "kestra-integration-test"
+      },
+      {
+        "title": "Update Jira tickets before end of day",
+        "dueDate": "2025-12-09",
+        "priority": "high",
+        "status": "pending",
+        "source": "kestra-integration-test"
+      }
+    ],
+    "entities": {
+      "people": [
+        "John",
+        "Sarah",
+        "Mike"
+      ],
+      "companies": [],
+      "projects": [],
+      "tools": [
+        "Jira"
+      ]
+    },
+    "metadata": {
+      "source": "kestra-integration-test",
+      "timestamp": 1765222598026,
+      "contentType": "meeting_notes"
+    }
+  }
+]

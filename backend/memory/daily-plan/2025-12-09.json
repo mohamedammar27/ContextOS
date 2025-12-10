@@ -1,0 +1,210 @@
+{
+  "date": "2025-12-09",
+  "daySummary": "Complete high priority tasks for today.",
+  "focusTasks": [
+    {
+      "title": "Complete the marketing proposal",
+      "dueDate": "2025-12-09",
+      "priority": "high",
+      "status": "pending",
+      "source": "test-pipeline",
+      "taskNumber": 1,
+      "completed": false
+    },
+    {
+      "title": "Database migration should happen on Monday morning",
+      "dueDate": "2025-12-09",
+      "priority": "high",
+      "status": "pending",
+      "source": "kestra-integration-test",
+      "taskNumber": 2,
+      "completed": false
+    },
+    {
+      "title": "Update Jira tickets before end of day",
+      "dueDate": "2025-12-09",
+      "priority": "high",
+      "status": "pending",
+      "source": "kestra-integration-test",
+      "taskNumber": 3,
+      "completed": false
+    },
+    {
+      "title": "Finish API documentation",
+      "dueDate": "2025-12-13",
+      "priority": "high",
+      "status": "pending",
+      "source": "kestra-integration-test",
+      "taskNumber": 4,
+      "completed": false
+    },
+    {
+      "title": "Finish the API documentation",
+      "dueDate": "2025-12-13",
+      "priority": "high",
+      "status": "pending",
+      "source": "kestra-integration-test",
+      "taskNumber": 5,
+      "completed": false
+    }
+  ],
+  "otherTasks": [
+    {
+      "title": "Perform database migration",
+      "dueDate": "2023-12-11",
+      "priority": "high",
+      "status": "pending",
+      "source": "kestra-test",
+      "taskNumber": 6,
+      "completed": false
+    },
+    {
+      "title": "Finish the API documentation by Friday, December 13th",
+      "dueDate": "2025-12-13",
+      "priority": "high",
+      "status": "pending",
+      "source": "kestra-integration-test",
+      "taskNumber": 7,
+      "completed": false
+    },
+    {
+      "title": "Database migration",
+      "dueDate": "2025-12-15",
+      "priority": "high",
+      "status": "pending",
+      "source": "kestra-integration-test",
+      "taskNumber": 8,
+      "completed": false
+    },
+    {
+      "title": "Schedule a product demo with the client",
+      "dueDate": "2025-12-16",
+      "priority": "high",
+      "status": "pending",
+      "source": "kestra-integration-test",
+      "taskNumber": 9,
+      "completed": false
+    },
+    {
+      "title": "Review all pending pull requests",
+      "dueDate": null,
+      "priority": "high",
+      "status": "pending",
+      "source": "kestra-integration-test",
+      "taskNumber": 10,
+      "completed": false
+    },
+    {
+      "title": "Schedule product demo with client",
+      "dueDate": null,
+      "priority": "high",
+      "status": "pending",
+      "source": "kestra-integration-test",
+      "taskNumber": 11,
+      "completed": false
+    },
+    {
+      "title": "Schedule the database migration",
+      "dueDate": null,
+      "priority": "high",
+      "status": "pending",
+      "source": "kestra-integration-test",
+      "taskNumber": 12,
+      "completed": false
+    },
+    {
+      "title": "Schedule a product demo with the client next week (Dec 16-20)",
+      "dueDate": null,
+      "priority": "high",
+      "status": "pending",
+      "source": "kestra-integration-test",
+      "taskNumber": 13,
+      "completed": false
+    },
+    {
+      "title": "Schedule demo with client",
+      "dueDate": null,
+      "priority": "medium",
+      "status": "pending",
+      "source": "kestra-test",
+      "taskNumber": 14,
+      "completed": false
+    },
+    {
+      "title": "Review all pending pull requests",
+      "dueDate": null,
+      "priority": "medium",
+      "status": "pending",
+      "source": "kestra-integration-test",
+      "taskNumber": 15,
+      "completed": false
+    },
+    {
+      "title": "Update Jira tickets",
+      "dueDate": "2025-12-09",
+      "priority": "low",
+      "status": "pending",
+      "source": "kestra-integration-test",
+      "taskNumber": 16,
+      "completed": false
+    },
+    {
+      "title": "Discuss Q4 roadmap with Sarah",
+      "dueDate": null,
+      "priority": "low",
+      "status": "pending",
+      "source": "test-pipeline",
+      "taskNumber": 17,
+      "completed": false
+    },
+    {
+      "title": "Deploy the new feature to production",
+      "dueDate": null,
+      "priority": "low",
+      "status": "pending",
+      "source": "test-pipeline",
+      "taskNumber": 18,
+      "completed": false
+    },
+    {
+      "title": "Contact John at Microsoft about the partnership",
+      "dueDate": null,
+      "priority": "low",
+      "status": "pending",
+      "source": "test-pipeline",
+      "taskNumber": 19,
+      "completed": false
+    },
+    {
+      "title": "Finish API documentation",
+      "dueDate": "2023-12-15",
+      "priority": "high",
+      "status": "pending",
+      "source": "kestra-test",
+      "taskNumber": 20,
+      "completed": false
+    }
+  ],
+  "reminders": [
+    "Update Jira tickets before end of day.",
+    "Complete marketing proposal.",
+    "Schedule product demo with client (Dec 16)"
+  ],
+  "scheduleSuggestions": {
+    "morning": [
+      "Complete marketing proposal.",
+      "Update Jira tickets.",
+      "Schedule product demo with client (Dec 16)"
+    ],
+    "afternoon": [
+      "Database migration",
+      "Finish API documentation"
+    ],
+    "evening": []
+  },
+  "metadata": {
+    "totalTasks": 20,
+    "highPriorityCount": 14,
+    "normalizedAt": "2025-12-10T07:27:43.470Z"
+  }
+}
