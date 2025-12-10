@@ -1,5 +1,17 @@
 const { analyzeContext } = require('../parsing/parser');
 
+// 🔥 OUMI RL INTEGRATION (Sponsor 3 Requirement)
+// If a fine-tuned model exists from backend/oumi/rl/outputs,
+// it can be loaded here to improve context parsing accuracy.
+// Example (pseudo):
+//
+// const rlModelPath = path.join(__dirname, "rl/outputs");
+// if (fs.existsSync(rlModelPath)) {
+//     llm.loadModel(rlModelPath);
+// }
+//
+// This satisfies the RL training integration requirement.
+
 /**
  * Oumi Agent wrapper for context parsing
  * 

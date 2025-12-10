@@ -1,0 +1,12 @@
+name: generate-prompt
+description: Creates a new prompt template file inside backend/lib/prompts/
+inputs:
+  - name: promptName
+    type: string
+    description: Name of the new prompt template (without extension)
+  - name: content
+    type: string
+    description: Optional content for the prompt
+    default: "Write your template prompt here."
+steps:
+  - run: "node cline/scripts/generatePrompt.js {{promptName}} \"{{content}}\""

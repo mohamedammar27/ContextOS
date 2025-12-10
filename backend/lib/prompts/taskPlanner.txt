@@ -1,0 +1,4 @@
+# Prompt Template: taskPlanner
+
+This prompt helps generate daily tasks
+

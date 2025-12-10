@@ -1,0 +1,9 @@
+name: summarize-memory
+description: Reads JSON files under backend/memory and writes a lightweight summary to backend/memory/summary.json
+inputs:
+  - name: folderPath
+    type: string
+    description: Path to the memory folder to summarize
+    default: backend/memory
+steps:
+  - run: "node cline/scripts/generateMemorySummary.js {{folderPath}}"

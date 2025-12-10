@@ -1,0 +1,19 @@
+model:
+  name: "Qwen/Qwen2.5-0.5B-Instruct"       # tiny model that trains fast
+  dtype: "bfloat16"
+
+train:
+  task: "grpo"                             # Oumi’s RL training mode
+  steps: 50                                # very small for demo
+  micro_batch_size: 1
+  gradient_accumulation_steps: 1
+  learning_rate: 5e-6
+  project_name: "contextos-rl-training"
+
+dataset:
+  train_path: "backend/oumi/rl/train.jsonl"
+  validation_path: "backend/oumi/rl/train.jsonl"   # same file is fine for demo
+
+output_dir: "backend/oumi/rl/outputs"
+logging_steps: 5
+save_steps: 25

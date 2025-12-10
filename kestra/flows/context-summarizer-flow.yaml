@@ -1,0 +1,36 @@
+id: context_summarizer_flow
+namespace: contextos
+
+description: Summarize text or JSON content using Kestra's AI Agent
+
+inputs:
+  - id: text
+    type: STRING
+    required: true
+    description: "The text or JSON content to summarize"
+tasks:
+  - id: log_received
+    type: io.kestra.plugin.core.log.Log
+    message: "📥 Received content to summarize (length: {{ inputs.text | length }} chars)"
+    level: INFO
+  - id: ai_summarize
+    type: io.kestra.plugin.ai.agent.AIAgent
+    systemMessage: |
+      You are a summarization assistant for ContextOS. 
+      Return a short structured summary of the content.
+    prompt: |
+      Summarize the following content clearly:
+      {{ inputs.text }}
+outputs:
+  - id: summary
+    type: STRING
+    value: "{{ outputs.ai_summarize.result }}"
+
+pluginDefaults:
+  - type: io.kestra.plugin.ai.agent.AIAgent
+    values:
+      provider:
+        type: io.kestra.plugin.ai.provider.GoogleAI
+        apiKey: "AIzaSyA_KyTAFr7wH9jYE3-J02VhJr4ZdkHkK_I"
+        modelName: gemini-2.5-flash
+

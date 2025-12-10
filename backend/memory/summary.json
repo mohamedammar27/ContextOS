@@ -1,0 +1,460 @@
+{
+  "generatedAt": "2025-12-10T16:19:38.540Z",
+  "folder": "backend/memory",
+  "filesSummarized": 13,
+  "items": [
+    {
+      "path": "backend\\memory\\chat-history\\chat.json",
+      "bytes": 645,
+      "parsed": true,
+      "type": "object",
+      "keys": 1,
+      "sample": {
+        "messages": [
+          {
+            "role": "user",
+            "content": "when is the last date to submit my assignment?",
+            "timestamp": 1765351943309
+          },
+          {
+            "role": "assistant",
+            "content": "You have a Capstone Week course that's due soon, and it's a high priority task for this week. I'd recommend checking the course details for the exact deadline. However, based on the information I have, it seems like it's due before the end of this week, probably by tomorrow or the next day. I can help you review your task list and check the course details together if you'd like.",
+            "timestamp": 1765351943309
+          }
+        ]
+      }
+    },
+    {
+      "path": "backend\\memory\\cleanup-config.json",
+      "bytes": 29,
+      "parsed": true,
+      "type": "object",
+      "keys": 1,
+      "sample": {
+        "retentionDays": 30
+      }
+    },
+    {
+      "path": "backend\\memory\\context-index.json",
+      "bytes": 498,
+      "parsed": true,
+      "type": "object",
+      "keys": 2,
+      "sample": {
+        "totalEntries": 34,
+        "entriesPerSource": {
+          "github": 2,
+          "slack": 1,
+          "discord": 1,
+          "mail.google.com": 8,
+          "learn.microsoft.com": 1,
+          "test": 1,
+          "test-pipeline": 3,
+          "kestra-test": 2,
+          "kestra-integration-test": 3,
+          "chatgpt.com": 1,
+          "mail.google.com (manual)": 3,
+          "manual": 1,
+          "ocr (test-meeting-notes.txt)": 4,
+          "ocr (sprint-review.txt)": 1,
+          "ocr (standup-notes.txt)": 1,
+          "ocr (assignment_submission.jpeg)": 1
+        }
+      }
+    },
+    {
+      "path": "backend\\memory\\daily-plan\\2025-12-08.json",
+      "bytes": 2021,
+      "parsed": true,
+      "type": "object",
+      "keys": 7,
+      "sample": {
+        "date": "2025-12-08",
+        "daySummary": "Focus on high priority tasks"
+      }
+    },
+    {
+      "path": "backend\\memory\\daily-plan\\2025-12-09.json",
+      "bytes": 5568,
+      "parsed": true,
+      "type": "object",
+      "keys": 7,
+      "sample": {
+        "date": "2025-12-09",
+        "daySummary": "Complete high priority tasks for today."
+      }
+    },
+    {
+      "path": "backend\\memory\\daily-plan\\2025-12-10.json",
+      "bytes": 2259,
+      "parsed": true,
+      "type": "object",
+      "keys": 7,
+      "sample": {
+        "date": "2025-12-10",
+        "daySummary": "Complete high priority tasks with Capstone Week and learning wrap up."
+      }
+    },
+    {
+      "path": "backend\\memory\\logs\\2025-12-08.json",
+      "bytes": 20106,
+      "parsed": true,
+      "type": "array",
+      "count": 14,
+      "sample": [
+        {
+          "timestamp": "2025-12-08T17:16:21.564Z",
+          "source": "github",
+          "content": "User opened PR #123: Add memory system"
+        },
+        {
+          "timestamp": "2025-12-08T17:16:21.571Z",
+          "source": "slack",
+          "content": "Team meeting scheduled for 3pm"
+        }
+      ]
+    },
+    {
+      "path": "backend\\memory\\logs\\2025-12-09.json",
+      "bytes": 5891,
+      "parsed": true,
+      "type": "array",
+      "count": 8,
+      "sample": [
+        {
+          "timestamp": "2025-12-08T18:58:53.888Z",
+          "source": "test-pipeline",
+          "content": "Meeting notes: Discuss Q4 roadmap with Sarah. Complete the marketing proposal by Friday. Deploy the new feature to production. Contact John at Microsoft about the partnership."
+        },
+        {
+          "timestamp": "2025-12-08T19:01:02.349Z",
+          "source": "mail.google.com",
+          "content": "Conversation opened. 1 unread message.\n\nSkip to content\nUsing Gmail with screen readers\n\nSearch\nAsk Gemini\nCompose\nLabels\nInbox\n7,206\nStarred\nSnoozed\nSent\nDrafts\n16\nPurchases\n17\nMore\n \nLabels\nLabels\n16 of 12,572\nPrint all\nIn new window\nYour $30.00 payout for Perplexity is on the way\nInbox\nSearch for all messages with label Inbox\nRemove label Inbox from this conversation\nDub.co <notifications@mail.dub.co>\nMon, Dec 8, 1:04 PM (11 hours ago)\nYou can't react to a message with a reply-to address\nReply\nMore\nto me\nYour payout is on the way!\n\nPerplexity has initiated a payout of $30.00 for affiliate commissions made from Oct 21, 2025 to Oct 28, 2025.\n\nThe payout is currently being processed and is expected to be transferred to your Stripe Express account in 5 business days (excluding weekends and public holidays).\n\nEstimated arrival date: Dec 15, 7:30 AM.\n\nView payout\n\nThis email was intended for 1ammar.yaser@gmail.com. If you were not expecting this email, you can ignore this email. If you are concerned about your account's safety, please reply to this email to get in touch with us.\n\nDub Technologies, Inc.\n2261 Market Street STE 5906\nSan Francisco, CA 941114\n\nReply\nForward\nYou can't react to a message with a reply-to address"
+        }
+      ]
+    },
+    {
+      "path": "backend\\memory\\logs\\2025-12-10.json",
+      "bytes": 11305,
+      "parsed": true,
+      "type": "array",
+      "count": 9,
+      "sample": [
+        {
+          "timestamp": "2025-12-09T18:48:19.977Z",
+          "source": "mail.google.com",
+          "content": "\nSkip to content\nUsing Gmail with screen readers\n\nSearch\nAsk Gemini\nCompose\nLabels\nInbox\n7,244\nStarred\nSnoozed\nSent\nDrafts\n16\nPurchases\n17\nMore\n \nLabels\nLabels\n2 of 12,611\nPrint all\nIn new window\nNew Event Published: Hyderabad - UiPath Autonomous Agents | Building and Orchestrating Agents End-to-End [Tue, Dec 16, 4:00 PM (IST)]\nInbox\nSearch for all messages with label Inbox\nRemove label Inbox from this conversation\nAdd to Calendar\nUiPath Community <community@uipath.com> Unsubscribe\nTue, Dec 9, 10:45 PM (1 hour ago)\nYou can't react with an emoji to a group\nReply\nMore\nto me\nUiPath - Hyderabad\tView in browser\n\n\nNew Event Published: Hyderabad - UiPath Autonomous Agents | Building and Orchestrating Agents End-to-End [Tue, Dec 16, 4:00 PM (IST)]\n\n\n\nCheck out our next upcoming event: UiPath Autonomous Agents | Building and Orchestrating Agents End-to-End\n\n\nAbout this event\n\n\n\nIn this session, I will walk the participants through a complete, practical implementation of a UiPath Agent, starting from understanding the use case to fully orchestrating it across UiPath services. The session will be divided into two major phases:\n\nAgenda:\n\nPhase 1: Understanding the Use Case & Why UiPath Agent\n• Defining Problem Statement: What business challenge we are addressing and what outcome we aim to achieve.\n• Why UiPath Agent?: Explanation of why this scenario is a strong fit for an agentic automation approach instead of a traditional RPA workflow.\n• Complexity Breakdown\n• Document/process complexity\n• Decision-making needs\n• Why an agent-driven, iterative approach is more suitable\n• Expected behaviour and constraints\nThis phase sets the context for when and why organisations should prefer UiPath Agents.\n\nPhase 2: Hands-On Build – End-to-End Agentic Automation\nParticipants will follow along as we construct the full solution:\n\nBuilding the Base RPA Workflow\n\n• Creating the underlying sequence/process\n• Implementing reusable components\n• Preparing the workflow for agent integration\n\nCreating the UiPath Agent\n\n• Defining the agent\n• Connecting the workflow to the agent\n• Configuring prompts, capabilities, and agentic logic\n• Testing the agent behaviour\n\nBuilding the UiPath App\n\n• Designing an app interface for users to interact with the agent\n• Linking the app to the agent for real-time responses\n• Passing inputs/outputs and handling human-agent communication\n\nOrchestrating the Entire Flow\n\n• Using UiPath Orchestrator to bind workflows, apps, and the UiPath Agent\n• Setting up triggers and execution flows\n• Demonstration of the full agentic workflow in action\n• Monitoring and managing the automation\n\nQ&A + Open discussion, clarifications.\n\nPrerequisites\n\nGet ready with your laptop\n\nUiPath Automation Cloud account\n\nSign in to cloud.uipath.com\n\nEnable preview features in your organisation settings\n\nGood to Have (not mandatory)\n\nUnderstanding of Agent fundamentals\n\nSee you super soon\n\n\n\nSee you there!\nRSVP\n\n\n\t\nDate & time\n\nTue, Dec 16, 4:00 PM (GMT+5:30)\n\nAdd to Google · Outlook · iCal · Yahoo\n\n Stay updated on the latest news and resources by subscribing to the Community Newsletter.\n\n Read the Welcome guide to find out how to make the most of your UiPath Community experience.\n\n\n\nClick here for the UiPath Community Code of Coduct.\n\n\n\n\n\n\n\nUnsubscribe\nReply\nForward\nYou can't react with an emoji to a group"
+        },
+        {
+          "timestamp": "2025-12-09T19:33:09.847Z",
+          "source": "mail.google.com (manual)",
+          "content": "Conversation opened. 1 unread message.\n\nSkip to content\nUsing Gmail with screen readers\n\nSearch\nAsk Gemini\nCompose\nLabels\nInbox\n7,240\nStarred\nSnoozed\nSent\nDrafts\n16\nPurchases\n17\nMore\n \nLabels\nLabels\n31 of 12,611\nPrint all\nIn new window\nDiscord. course is soon due in Aspire Leaders\nInbox\nSearch for all messages with label Inbox\nRemove label Inbox from this conversation\nSana <sana@sanalabs.com> Unsubscribe\nTue, Dec 9, 9:01 AM (16 hours ago)\nYou can't react with an emoji to a group\nReply\nMore\nto me\n\nYour course is due soon\n\nDiscord. is due soon\nDownload\n\nDiscord.\n\nDue December 10, 2025\n\nWrap up your learning\n\nPowered by Sana\n\nYou’re getting this email because you have an account on Sana. Sana is an AI-powered learning platform that empowers organizations to find, share, and harness the knowledge they need to achieve their missions.\n\nAbout us\tHelp center\tLegal\nReply\nForward\nYou can't react with an emoji to a group"
+        }
+      ]
+    },
+    {
+      "path": "backend\\memory\\processed\\2025-12-08.json",
+      "bytes": 2273,
+      "parsed": true,
+      "type": "array",
+      "count": 2,
+      "sample": [
+        {
+          "summary": "Discuss Q4 roadmap with Sarah, complete marketing proposal, deploy new feature, and contact John at Microsoft.",
+          "tasks": [
+            {
+              "title": "Complete the marketing proposal",
+              "dueDate": "null",
+              "priority": "high",
+              "status": "pending",
+              "source": "test-pipeline"
+            },
+            {
+              "title": "Deploy the new feature to production",
+              "dueDate": "null",
+              "priority": "high",
+              "status": "pending",
+              "source": "test-pipeline"
+            },
+            {
+              "title": "Contact John at Microsoft about the partnership",
+              "dueDate": "null",
+              "priority": "high",
+              "status": "pending",
+              "source": "test-pipeline"
+            }
+          ],
+          "entities": {
+            "people": [
+              "Sarah",
+              "John"
+            ],
+            "companies": [
+              "Microsoft"
+            ],
+            "projects": [
+              "Q4 roadmap"
+            ],
+            "tools": []
+          },
+          "metadata": {
+            "source": "test-pipeline",
+            "timestamp": 1765217353701,
+            "contentType": "meeting_notes"
+          }
+        },
+        {
+          "summary": "Received a private message with a free Fabric exam voucher and instructions for redemption.",
+          "tasks": [
+            {
+              "title": "Redeem voucher by December 10, 2025",
+              "dueDate": "2025-12-10",
+              "priority": "medium",
+              "status": "pending",
+              "source": "mail.google.com"
+            },
+            {
+              "title": "Take exam by December 31, 2025",
+              "dueDate": "2025-12-31",
+              "priority": "low",
+              "status": "pending",
+              "source": "mail.google.com"
+            },
+            {
+              "title": "Prepare to pass DP-600 or DP-700 exams",
+              "dueDate": null,
+              "priority": "high",
+              "status": "pending",
+              "source": "mail.google.com"
+            }
+          ],
+          "entities": {
+            "people": [
+              "FabricPam",
+              "T_Mohamed_Yaser"
+            ],
+            "companies": [
+              "Microsoft"
+            ],
+            "projects": [
+              "Fabric Data Days Exam Voucher"
+            ],
+            "tools": [
+              "Gmail"
+            ]
+          },
+          "metadata": {
+            "source": "mail.google.com",
+            "timestamp": 1765217414283,
+            "contentType": "email"
+          }
+        }
+      ]
+    },
+    {
+      "path": "backend\\memory\\processed\\2025-12-09.json",
+      "bytes": 8071,
+      "parsed": true,
+      "type": "array",
+      "count": 6,
+      "sample": [
+        {
+          "summary": "Discuss Q4 roadmap with Sarah, complete marketing proposal by Friday, deploy new feature to production, and contact John at Microsoft about partnership.",
+          "tasks": [
+            {
+              "title": "Discuss Q4 roadmap with Sarah",
+              "dueDate": null,
+              "priority": "low",
+              "status": "pending",
+              "source": "test-pipeline"
+            },
+            {
+              "title": "Complete the marketing proposal",
+              "dueDate": "2025-12-09",
+              "priority": "high",
+              "status": "pending",
+              "source": "test-pipeline"
+            },
+            {
+              "title": "Deploy the new feature to production",
+              "dueDate": null,
+              "priority": "low",
+              "status": "pending",
+              "source": "test-pipeline"
+            },
+            {
+              "title": "Contact John at Microsoft about the partnership",
+              "dueDate": null,
+              "priority": "low",
+              "status": "pending",
+              "source": "test-pipeline"
+            }
+          ],
+          "entities": {
+            "people": [
+              "Sarah",
+              "John"
+            ],
+            "companies": [
+              "Microsoft"
+            ],
+            "projects": [
+              "Q4 roadmap",
+              "marketing proposal"
+            ],
+            "tools": []
+          },
+          "metadata": {
+            "source": "test-pipeline",
+            "timestamp": 1765220333908,
+            "contentType": "meeting_notes"
+          }
+        },
+        {
+          "summary": "Received a notification from Dub.co regarding a $30.00 payout for affiliate commissions made from October 21 to 28, 2025.",
+          "tasks": [
+            {
+              "title": "Verify payout status",
+              "dueDate": null,
+              "priority": "low",
+              "status": "pending",
+              "source": "mail.google.com"
+            }
+          ],
+          "entities": {
+            "people": [
+              "1ammar.yaser@gmail.com"
+            ],
+            "companies": [
+              "Dub Technologies, Inc."
+            ],
+            "projects": [
+              "Perplexity"
+            ],
+            "tools": [
+              "Gmail",
+              "Stripe Express"
+            ]
+          },
+          "metadata": {
+            "source": "mail.google.com",
+            "timestamp": 1765220462362,
+            "contentType": "email"
+          }
+        }
+      ]
+    },
+    {
+      "path": "backend\\memory\\processed\\2025-12-10.json",
+      "bytes": 15678,
+      "parsed": true,
+      "type": "array",
+      "count": 13,
+      "sample": [
+        {
+          "summary": "Upcoming UiPath event on Autonomous Agents | Building and Orchestrating Agents End-to-End on December 16th, in Hyderabad.",
+          "tasks": [
+            {
+              "title": "Get ready with your laptop",
+              "dueDate": null,
+              "priority": "low",
+              "status": "pending",
+              "source": "mail.google.com"
+            },
+            {
+              "title": "UiPath Automation Cloud account",
+              "dueDate": null,
+              "priority": "low",
+              "status": "pending",
+              "source": "mail.google.com"
+            },
+            {
+              "title": "Enable preview features in your organisation settings",
+              "dueDate": null,
+              "priority": "low",
+              "status": "pending",
+              "source": "mail.google.com"
+            },
+            {
+              "title": "Understanding of Agent fundamentals",
+              "dueDate": null,
+              "priority": "medium",
+              "status": "pending",
+              "source": "mail.google.com"
+            }
+          ],
+          "entities": {
+            "people": [
+              "UiPath Community"
+            ],
+            "companies": [
+              "UiPath"
+            ],
+            "projects": [
+              "UiPath Autonomous Agents | Building and Orchestrating Agents End-to-End"
+            ],
+            "tools": [
+              "UiPath Automation Cloud",
+              "UiPath Orchestrator",
+              "UiPath Agent",
+              "Google Calendar",
+              "Outlook",
+              "iCal",
+              "Yahoo"
+            ]
+          },
+          "metadata": {
+            "source": "mail.google.com",
+            "timestamp": 1765306099989,
+            "contentType": "meeting_notes"
+          }
+        },
+        {
+          "summary": "Reminder email about a course due soon on Sana AI-powered learning platform.",
+          "tasks": [
+            {
+              "title": "Wrap up your learning",
+              "dueDate": "2025-12-10",
+              "priority": "high",
+              "status": "pending",
+              "source": "mail.google.com (manual)"
+            }
+          ],
+          "entities": {
+            "people": [
+              "Sana"
+            ],
+            "companies": [
+              "Sana"
+            ],
+            "projects": [
+              "Aspire Leaders",
+              "Discord"
+            ],
+            "tools": [
+              "Gmail",
+              "Discord",
+              "Sana"
+            ]
+          },
+          "metadata": {
+            "source": "mail.google.com (manual)",
+            "timestamp": 1765308789863,
+            "contentType": "email"
+          }
+        }
+      ]
+    },
+    {
+      "path": "backend\\memory\\settings.json",
+      "bytes": 71,
+      "parsed": true,
+      "type": "object",
+      "keys": 3,
+      "sample": {
+        "togetherApiKey": "",
+        "groqApiKey": ""
+      }
+    }
+  ]
+}

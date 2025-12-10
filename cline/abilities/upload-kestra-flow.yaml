@@ -1,0 +1,4 @@
+name: upload-kestra-flow
+description: Uploads the Kestra summarizer flow into the Kestra server automatically.
+steps:
+  - run: "node cline/scripts/uploadKestraFlow.js"

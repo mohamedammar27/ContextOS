@@ -1,0 +1,8 @@
+name: generate-ui-page
+description: Creates a new Next.js page inside ui/app/<name>/page.jsx
+inputs:
+  - name: pageName
+    type: string
+    description: The name of the new page (folder name)
+steps:
+  - run: "node cline/scripts/generateUIPage.js {{pageName}}"

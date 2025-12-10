@@ -1,0 +1,4 @@
+name: summarize-daily-plan
+description: Collects all daily-plan JSON files, generates a combined summary text file.
+steps:
+  - run: "node cline/scripts/collectDailyPlans.js"
