@@ -25,6 +25,9 @@ export function HeroSection() {
             className="text-5xl md:text-7xl lg:text-8xl font-bold text-white leading-tight"
             delay={50}
             duration={0.8}
+          onLetterAnimationComplete={() => {
+            console.log("SplitText animation finished!");
+          }}
           />
         </div>
 
