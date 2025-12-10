@@ -102,6 +102,7 @@ const FinalCTASection = () => {
             speed={35}
             gap={5}
             className="relative"
+            noFocus={true}
           >
             <div className="relative p-12 sm:p-16">
               <div className="relative z-10">
