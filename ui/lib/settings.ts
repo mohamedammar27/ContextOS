@@ -13,6 +13,7 @@ const DEFAULT_SERVER_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:
 
 // Cache settings in memory to avoid repeated API calls
 let settingsCache: Settings | null = null;
+let customServerUrl: string | null = null;
 
 /**
  * Load settings from the backend
@@ -21,7 +22,8 @@ let settingsCache: Settings | null = null;
 export async function loadSettings(): Promise<Settings> {
   try {
     // Use default URL for settings endpoint (chicken-egg problem)
-    const response = await fetch(`${DEFAULT_SERVER_URL}/api/settings`);
+    const baseUrl = customServerUrl || DEFAULT_SERVER_URL;
+    const response = await fetch(`${baseUrl}/api/settings`);
     
     if (!response.ok) {
       throw new Error(`Failed to load settings: ${response.statusText}`);
@@ -48,8 +50,12 @@ export async function loadSettings(): Promise<Settings> {
  */
 export async function saveSettings(updates: Partial<Settings>): Promise<Settings> {
   try {
+    if (updates.serverUrl) {
+      customServerUrl = updates.serverUrl;
+    }
+    const baseUrl = customServerUrl || DEFAULT_SERVER_URL;
     // Use default URL for settings endpoint
-    const response = await fetch(`${DEFAULT_SERVER_URL}/api/settings`, {
+    const response = await fetch(`${baseUrl}/api/settings`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -82,8 +88,7 @@ export async function getBaseUrl(): Promise<string> {
   }
   
   // Return custom server URL if configured, otherwise default
-  const customUrl = settingsCache?.serverUrl?.trim();
-  return customUrl || DEFAULT_SERVER_URL;
+  return customServerUrl?.trim() || settingsCache?.serverUrl?.trim() || DEFAULT_SERVER_URL;
 }
 
 /**
