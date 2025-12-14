@@ -1,3 +1,5 @@
+
+
 <p align="center">
   <img 
     src="https://github.com/Yaser-123/ContextOS/blob/main/ui/public/assets/fav.png" 
@@ -41,10 +43,10 @@ These abilities demonstrate **complete automation tools built through the Cline 
 ### 🌍 The Wakanda Data Award ($4,000) - Kestra AI Agent
 **Requirement**: Use Kestra's built-in AI Agent to summarize data from other systems
 
-**✅ IMPLEMENTED**: Using `io.kestra.plugin.ai.agent.AIAgent` for intelligent data summarization [1](#3-0) 
+**✅ IMPLEMENTED**: Using `io.kestra.plugin.ai.agent.AIAgent` for intelligent data summarization
 
 **Key Features**:
-- **AI-Powered Summarization**: Google AI Gemini 2.5 Flash integration [2](#3-1) 
+- **AI-Powered Summarization**: Google AI Gemini 2.5 Flash integration
 - **Decision Making**: Agent analyzes content and determines relevance
 - **Webhook Integration**: Triggered automatically from backend API
 - **Structured Output**: JSON-formatted summaries for downstream processing
@@ -65,7 +67,7 @@ This implementation satisfies the requirement by **explicitly using Oumi's reinf
 ### ⚡ The Stormbreaker Deployment Award ($2,000) - Vercel Deployment
 **Requirement**: Project must be deployed on Vercel
 
-**✅ DEPLOYED LIVE**: http://contextoperatingsystem.vercel.app/
+**✅ DEPLOYED LIVE**: [http://contextoperatingsystem.vercel.app/](http://contextoperatingsystem.vercel.app/)
 
 - **Framework**: Next.js 14 with App Router optimized for Vercel
 - **Edge-Ready**: Server-side rendering with performance optimization
@@ -75,7 +77,7 @@ This implementation satisfies the requirement by **explicitly using Oumi's reinf
 
 **Requirement**: Demonstrate CodeRabbit for PR reviews and code quality
 
-**✅ ACTIVELY IMPLEMENTED**: CodeRabbit configured with strict standards [1](#4-0) 
+**✅ ACTIVELY IMPLEMENTED**: CodeRabbit configured with strict standards
 
 ### Proof of Implementation
 
@@ -115,9 +117,9 @@ focus_areas:
 ```
 
 #### Additional Quality Controls
-- **Request Changes for High Severity**: `request_changes_workflow: true` [6](#4-5) 
-- **Severity Thresholds**: High severity issues require changes [7](#4-6) 
-- **Path Filters**: Excludes build artifacts and dependencies from review [8](#4-7) 
+- **Request Changes for High Severity**: `request_changes_workflow: true`
+- **Severity Thresholds**: High severity issues require changes
+- **Path Filters**: Excludes build artifacts and dependencies from review
 
 This configuration demonstrates active use of CodeRabbit for automated code reviews, quality enforcement, and security analysis - satisfying all requirements for the Captain Code Award. 
 
@@ -135,7 +137,7 @@ ContextOS addresses the universal problem of information overload in modern digi
 ### Innovative Sponsor Technology Integration
 
 #### 🔄 **Kestra - Workflow Orchestration**
-- Implemented automated parsing pipeline with 4-task workflow [8](#3-7) 
+- Implemented automated parsing pipeline with 4-task workflow
 - Webhook-triggered workflows for real-time context processing
 - Production-grade scheduling and retry logic
 
@@ -357,7 +359,7 @@ ContextOS/
 ## 📞 Contact & Support
 
 - **GitHub**: [Yaser-123/ContextOS](https://github.com/Yaser-123/ContextOS)
-- **Live Demo**: http://contextoperatingsystem.vercel.app/
+- **Live Demo**: [http://contextoperatingsystem.vercel.app/](http://contextoperatingsystem.vercel.app/)
 - **Video**: https://youtu.be/4KfiKMZ28po
 
 ---
