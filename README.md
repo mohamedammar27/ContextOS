@@ -9,7 +9,7 @@
 
 # ContextOS - AI-Powered Context Management System
 
-### Built for Avengers 2025 Hackathon | Competing for ALL Sponsor Prizes
+## Built for Avengers 2025 Hackathon | Competing for ALL Sponsor Prizes
 
 A comprehensive system that automatically captures, analyzes, and organizes your digital context across multiple platforms. ContextOS transforms raw screenshots and content into intelligent daily plans using AI-powered task extraction and workflow orchestration.
 
